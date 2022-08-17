@@ -1,8 +1,8 @@
-const Chart = () => {
+const ApexChart = () => {
     return (
         <div>
         </div>
     )
 }
 
-export default Chart
+export default ApexChart
