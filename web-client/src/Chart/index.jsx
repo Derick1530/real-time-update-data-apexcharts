@@ -1,4 +1,8 @@
-const ApexChart = () => {
+import React from 'react'
+import Chart from 'react-apexcharts'
+
+const ApexChart = ({data}) => {
+
     return (
         <Chart
             type="area"

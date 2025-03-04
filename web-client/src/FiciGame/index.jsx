@@ -16,12 +16,12 @@ const FiciGame = () => {
     useEffect(() => {
         const timer = setInterval(() => {
             fetchFici()
-        }, 2000);
+        }, 3000);
         return () => { clearInterval(timer) }
     }, [])
 
     useEffect(() => {
-        const timer2 = setInterval(() => { sendRandomData() }, 10000);
+        const timer2 = setInterval(() => { sendRandomData() }, 2000);
         return () => { clearInterval(timer2) }
     }, [])
 
